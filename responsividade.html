@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Formulário com Bootstrap e Responsividade</title>
+		<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+		<style type="text/css">
+			#cabecalho, #rodape {
+				background-color: red;
+				height: 100px;
+			}
+
+			#menu-esquerdo, #menu-direito {
+				background-color: yellow;
+				height: 400px;
+			}
+
+			#conteudo {
+				background-color: blue;
+				height: 500px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Container -->
+		<div id="container" class="container">
+			<!-- Cabeçalho -->
+			<div class="row">
+				<div id="cabecalho" class="col-sm-12"></div>
+			</div>
+			<!-- Fim cabeçalho -->
+			
+			<!-- Corpo -->
+			<div class="row">
+				<!-- Esquerdo -->
+				<div id="menu-esquerdo" class="col-sm-3"></div>
+				<!-- Fim menu-esquerdo -->
+				<!-- Conteúdo -->
+				<div id="conteudo" class="col-sm-6"></div>
+				<!-- Fim conteúdo -->
+				<!-- Menu direito -->
+				<div id="menu-direito" class="col-sm-3"></div>
+				<!-- Fim menu-direito -->
+			</div>
+			<!-- Fim Corpo -->
+		
+			<!-- Rodapé -->
+			<div class="row">
+				<div id="rodape"></div>	
+			</div>
+			<!-- Fim rodapé -->
+			
+		</div>
+		<!-- Fim  container-->
+	</body>
+</html>
